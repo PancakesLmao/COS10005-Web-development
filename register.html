@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <script src="jquery-3.7.1.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/validation.js"></script>
+    <title>Register</title>
+
+</head>
+<body>
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #e9ffdb;">
+        <div class="container-fluid">
+            <img src="image/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="index.html">BeijingStore</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item px-3">
+              <a class="nav-link" href="index.html">Home</a> 
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="product.html">Products</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="features.html">Features</a>
+          </li>
+          </ul>
+        </div>
+        <span class="form-inline my-2 my-lg-0 px-4">
+            <!-- <a class="btn btn-sm btn-outline-secondary" href="#">Cart</a> -->
+            <a class="btn btn-sm btn-outline-secondary" href="#"><img src="image/cart50.png" width="30" height="30" alt="cart"></a>
+            <a class="btn btn-outline-success my-2 my-sm-2" href="login.html">Login</a>
+          </span>
+        </div>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section class="vh-100 bg-image"
+    style="background-image: url('image/R.jpg'); background-size: 1550px 850px;">
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+      <div class="container h-100">
+        <div class="row d-flex align-items-center h-100">
+          <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body p-4">
+                <h2 class="text-uppercase text-center mb-4">Create an account</h2>
+  
+                <form id="regform" method="post" action="http://mercury.swin.edu.au/it000000/cos10005/formtest.php">
+  
+                  <div class="form-outline mb-3">
+                    <input type="text" id="name" name="username" class="form-control form-control-lg">
+                    <label class="form-label" for="name">Your Name</label>
+                  </div>
+
+                  <div class="form-outline mb-3">
+                    <label class="form-label">Gender</label>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" id="genderf" type="radio" name="gender" value="female">
+                      <label class="form-check-label" for="genderf">Female</label>
+                    </div>
+  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" id="genderm" type="radio" name="gender" value="male">
+                      <label class="form-check-label" for="genderm">Male</label>
+                    </div>
+                  </div>
+
+                  <div class="form-outline mb-3">
+                    <input type="email" id="email" name="email" class="form-control form-control-lg">
+                    <label class="form-label" for="email">Your Email</label>
+                  </div>
+  
+                  <div class="form-outline mb-3">
+                    <input type="password" id="password" name="password" class="form-control form-control-lg">
+                    <label class="form-label" for="password">Password</label>
+                  </div>
+  
+                  <div class="form-outline mb-3">
+                    <input type="password" id="repeat-password" name="repeat_password" class="form-control form-control-lg">
+                    <label class="form-label" for="repeat-password">Repeat your password</label>
+                  </div>
+  
+                  <div class="form-check d-flex justify-content-center mb-3">
+                    <input class="form-check-input me-1" type="checkbox" name="term_service" id="term_service">
+                    <label class="form-check-label" for="term_service">
+                      I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                    </label>
+                  </div>
+  
+                  <div class="d-flex justify-content-center">
+                    <button type= submit class="btn btn-outline-success my-2 my-sm-2 btn-lg">Register</button>
+                  </div>
+  
+                  <p class="text-center text-muted mt-4 mb-0">Already have an account? <a href="login.html"
+                      class="fw-bold text-body"><u>Login here</u></a></p>
+  
+                </form>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

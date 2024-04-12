@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Kaushan+Script&family=Lato:wght@300;400;700&family=Open+Sans:wght@400;600&family=Oswald:wght@200;400;500&family=Poppins&family=Raleway:wght@100&family=Space+Mono:wght@400;700&display=swap');
+
+header span a{
+    margin-right: 1em;
+}
+header{
+    font-size: 20px;
+    box-shadow: 10px 10px green;
+}
+header nav {
+    box-shadow: 5px 1px #3cb371;
+}
+.active {
+    font-weight: 600;
+    
+}
+.nav-item:hover {
+    background-color: #d0f0c0;
+    border-radius: 10px;
+    transition: background-color .15s ease-in-out;
+}
+
+.main-body {
+    background-color: #e9ffdb;
+}
+
+.main-content {
+    margin-top: 4.4em;
+}
+.main-content2 {
+    margin-top: 4.4em;
+    background-color: #d0f0c0;
+}
+.main-content img{
+    height: 100%;
+}
+
+.content {
+    background-color: #d0f0c0;
+    padding-bottom: 2em;
+    /* margin-bottom: 2em;
+    margin-top: 2em;
+    text-align: center; */
+}
+
+/* .content1 h4, .content2 h4, .content3 h4, .content-header {
+    text-align: center;
+} */
+
+.content-list{
+    display: flex;
+    
+    /* padding-left: 30px; */
+    margin-top: 1em;
+} 
+/* .content1, .content2, .content3 {
+    width: 70%;
+    margin-left: 3em;
+}  */
+
+
+.other-pages {
+    display: flex;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+.page1, .page2 {
+    width: 50%;
+}
+.page1 {
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.button1 {
+    padding-top: 1em;
+    padding-left: 20%;
+    padding-right: 40%;
+}
+.button2 {
+    padding-top: 1em;
+    padding-left: 25%;
+    padding-right: 50%;
+}
+.page1 img, .page2 img{
+    border-radius: 10px;
+}
+
+/* About page */
+.main-content2 .container {
+    background-color: #e9ffdb;
+}
+.introduction {
+    
+    font-family: Kaushan Script;
+    margin-top: 3em;
+    margin-left: 4em;
+}
+.introduction h1 {
+    font-size: 4em;
+}
+
+.about1, .about2 {
+    display: flex;
+    width: 100%;
+}
+
+.info1, .info2 {
+    margin-top: 4em;
+    width: 100%;
+}
+.about1 {
+    position: relative;
+    left: 20%;
+}
+/* END OF ABOUT.HTML */
+
+/* Product page */
+/* buttons */
+.menu-btns {
+    display: flex;
+    justify-content: center;
+}
+.menu-btn {
+    font-family: Inter;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    background: none;
+    border: none;
+    font-weight: 600;
+    display: block;
+    color: #3cb371;
+    cursor: pointer;
+    margin: 0 1em;
+    outline: 0;
+    transition: opacity 0.4s ease-out;
+}
+.menu-btn::after {
+    content: "";
+    display: block;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #157347;
+    margin-top: 0.1rem;
+    width: 0;
+    transition: width 0.4s ease-out;
+}
+.menu-btn:hover::after {
+    width: 100%;
+}
+.active-btn {
+    color: #157347;
+}
+
+
+/* cart */
+.quantity {
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 13px;
+    top: 4px;
+    padding: 3px 10px;
+    
+}
+/* END OF PRODUCT PAGE */
+
+footer {
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.icon {
+    padding-bottom: 30px;
+}
+
+.form-label {
+    margin-right: 2em;
+}

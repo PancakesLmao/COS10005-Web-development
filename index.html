@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <title>Bejing Store</title>
+</head>
+
+<body class="main-body">
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #e9ffdb;">
+      <div class="container-fluid">
+        <img src="image/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="index.html">BeijingStore</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active px-3">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="product.html">Products</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="features.html">Features</a>
+            </li>
+          </ul>
+        </div>
+        <span class="form-inline my-2 my-lg-0 px-4">
+          <!-- <a class="btn btn-sm btn-outline-secondary" href="#">Cart</a> -->
+          <a class="btn btn-sm btn-outline-secondary" href="order.html"><img src="image/cart50.png" width="30"
+              height="30" alt="cart"><span class="quantity">0</span></a>
+
+          <a class="btn btn-outline-success my-2 my-sm-2" href="login.html">Login</a>
+        </span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <!-- SLIDER -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/slide6.jpg" class="d-block w-100 heigth" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/slide4.jpg" class="d-block w-100 heigth" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/slide5.jpg" class="d-block w-100 heigth" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!--  -->
+    <section class="section section-inset-2 bg-default text-md-start mt-5 mb-4">
+      <div class="container">
+        <div class="row row-30 align-items-center justify-content-center justify-content-xl-between">
+          <div class="col-sm-6 col-md-5 col-lg-6 wow fadeInLeft"
+            style="visibility: visible; animation-name: fadeInLeft;"><img src="image/R.jpg" alt="smart-greenhouse"
+              width="576" height="410">
+          </div>
+          <div class="col-md-7 col-lg-6 col-xl-5">
+            <h4 class="title-style-1 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">A Few
+              Words About Our Farm</h4>
+            <h2 class="wow fadeInRight" data-wow-delay=".1s"
+              style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">About us</h2>
+            <p class="offset-top-md-20 wow fadeInRight" data-wow-delay=".2s"
+              style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInRight;">Explore our pioneering
+              farm, where tradition meets cutting-edge technology across two certified organic properties. We cultivate
+              premium organic produce using smart IoT technologies in our state-of-the-art greenhouse. Our approach
+              combines age-old organic practices with modern innovation, ensuring top-quality harvests while minimizing
+              environmental impact. Join us in redefining farming for a greener, smarter, and more sustainable future.
+            </p>
+            <div class="group-xl group-middle d-md-flex justify-content-md-between wow fadeInRight" data-wow-delay=".3s"
+              style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
+              <button type="button" class="btn btn-success" onclick="window.location.href='about.html';">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                  </path>
+                </svg> View details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <div class="content">
+      <div class="container">
+        
+        <div class="content-header mb-4 mt-5">
+          <h2>&nbsp;</h2>
+          <h2 style="text-align:center">Why should you buy from us?</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-4">
+            <h4 class="box-icon-modern-title">Quality Above All</h4>
+            <p>Our greenhouse farming practices prioritize quality, ensuring fresh, flavorful, and nutrient-rich organic
+              produce. Customers can trust that our products are free from synthetic pesticides and chemicals, promoting
+              better health and well-being.</p>
+          </div>
+
+
+
+          <div class="col-md-4">
+            <h4 class="box-icon-modern-title">Environmental Responsibility</h4>
+            <p>We're committed to sustainable farming, employing eco-friendly techniques and efficient resources in our
+              operations. By choosing us, customers support sustainable agriculture, reducing the environmental impact
+              associated with conventional farming.</p>
+          </div>
+
+
+
+          <div class="col-md-4">
+            <h4 class="box-icon-modern-title">Community Support</h4>
+            <p>As a local farm, we're deeply rooted in our community. Buying from us means supporting local agriculture
+              and livelihoods. We engage in community programs, fostering transparency and trust between consumers and
+              producers.</p>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <div class="other-pages">
+    <div class="page1">
+      <img src="image/product.png" alt="product" width="400px">
+      <div class="button1">
+        <a href="#1" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Our Products</a>
+      </div>
+    </div>
+
+    <div class="page2">
+      <img src="image/farm.png" alt="product" width="400px" height="250px">
+      <div class="button2">
+        <a href="#1" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Our Farm</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!--  -->
+  <div class="container mb-5">
+    <div class="content-header mb-5 mt-5">
+      <h2 style="text-align:center">Top Products</h2>
+    </div>
+
+    <div class="row">
+
+      <div class="col-sm-3">
+        <div class="card" style="width: 13rem;">
+          <img class="card-img-top" src="image/corn.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Beijing Corn</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-success">Go to menu</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card" style="width: 13rem;">
+          <img class="card-img-top" src="image/product2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Fruit Cocktail</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-success">Go to menu</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card" style="width: 13rem;">
+          <img class="card-img-top" src="image/product9.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Canned Peaches</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-success">Go to menu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!--  -->
+  <footer class="bg-dark text-center text-white">
+    <h2>Contact Information</h2>
+    <p>Email: bejingfarm@gmail.com <br>
+      Phone number: 0912345678 <br>
+    </p>
+
+    <!-- Section: Form -->
+    <section>
+      <form>
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-1">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" placeholder="Email Address">
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">Subscribe</button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <h4><strong>Connect with us:</strong></h4>
+    <div class="icon">
+      <a class="btn btn-floating m-1" href="#"><img src="image/facebook50.png" alt="facebook"></a>
+      <a class="btn btn-floating m-1" href="#"><img src="image/discord50.png" alt="discord"></a>
+      <a class="btn btn-floating m-1" href="#"><img src="image/linkedin50.png" alt="linkedin"></a>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      ©2023 Fruit Market Website. Developed by Nguyen Thinh
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
